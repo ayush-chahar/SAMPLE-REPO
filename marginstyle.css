@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* sets the default margin and padding of the browser to 0 */
+
+}
+
+.margin-style {
+    background-color: darkslategray;
+    color: darkgrey;
+    padding-left: 590px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 20px;
+}
+
+.parent {
+    background-color: saddlebrown;
+    color: black;
+    width: 100%;
+    height: 300px;
+}
+
+.child {
+    /* display null removes the element from the site */
+    /* display the element in inline way */
+    display: inline-block;
+    background-color: bisque;
+    color: black;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.my {
+    /* we want the of my-child class relative to the my class i.e wrt my class */
+    position: relative;
+    background-color: saddlebrown;
+    color: black;
+    width: 400px;
+    height: 300px;
+}
+
+.my-child {
+    /* absolute means we dont want the default position of  the browser we want to denife our own position */
+    position: absolute;
+    background-color: bisque;
+    color: black;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    /* top: 0; */
+    right: 0;
+    bottom: 0;
+}

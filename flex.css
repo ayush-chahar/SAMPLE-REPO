@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    padding: 200px;
+
+}
+
+.parent {
+  background-color: aliceblue;
+  width: 100%;
+  height: 500px;
+  /* flex rearranges all  element in a row without gap */
+  display: flex; 
+  /* gap gives gap b/w the child class elements */
+  gap: 5px;
+  /* felx wrap maintains the width if we do not use wrap flex will display all elements in a single row */
+  flex-wrap: wrap ;
+  /* justify content  how you want to display content*/
+  /* explore justify content */
+  /* it align items in groups */
+  justify-content: space-between;
+  justify-content: center;
+  /* align intems individually*/
+  align-items: center;
+  align-items: baseline; 
+  align-items: flex-end;
+  flex-direction: column;
+  
+
+}
+
+.child {
+  background-color: gold;
+  width: 200px;
+  height: 200px;
+}
+
+.child2 {
+    background-color: #8DCBE6;
+    width: 200px;
+    height: 300px;
+  }

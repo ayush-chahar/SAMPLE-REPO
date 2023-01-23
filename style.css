@@ -1,0 +1,37 @@
+.my-style {
+    background-color: fuchsia;
+    color: aquamarine;
+    border: 3px solid black  ;
+    line-height: 3px;
+    letter-spacing: 5px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+
+}
+
+/* class /style use . */
+.my-class {
+    background-color: bisque;
+    color: darkslategray;
+    text-align: end;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+/* id use # */
+/* id are not preffered so use class */
+#my-id {
+    background-color: black;
+    color: azure;
+    font-weight: bolder;
+}
+
+p {
+    background-color: aquamarine;
+    color: blueviolet;
+}
+/* h2 is been over written avoid this  */
+h2 {
+    background-color: teal;
+    color: black;
+}
